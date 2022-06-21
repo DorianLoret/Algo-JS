@@ -8,7 +8,6 @@ function selectionSort(array) {
     }
     [array[i], array[minIndex]] = [array[minIndex], array[i]];
   }
-  console.log(array);
 }
 
 selectionSort([451, 2, 65, 4, 7, 98, 2, 3, 1]);
